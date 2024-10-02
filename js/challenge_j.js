@@ -3,7 +3,7 @@
 document.getElementById('blog-new-html-page2').addEventListener('click',function(event)
 {
     event.preventDefault();
-    window.location.href='/index.html';
+    window.location.href='index.html';
 
 })
 
