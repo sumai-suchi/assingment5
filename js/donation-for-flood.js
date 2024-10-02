@@ -1,3 +1,20 @@
+
+document.getElementById('blog-new-html-page1').addEventListener('click',function(event)
+{
+    event.preventDefault();
+    window.location.href='/challenge.html';
+
+
+
+     
+})
+
+
+
+
+
+
+
 document.getElementById('first_button_id').addEventListener('click',function(event)
 {
     event.preventDefault();
