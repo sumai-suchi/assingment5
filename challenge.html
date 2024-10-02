@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Blog</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="styles/challange.css">
+</head>
+
+<body>
+    <header id="nav-blur" class="max-w-full  max-h-full sticky top-0 bg-white/30 backdrop-blur-2xl z-10  ">
+
+        <nav class="max-w-full   flex lg:space-x-96 lg:justify-center pt-6 pb-8 bg-orange-50/50">
+
+
+            <div class="div-blog-button">
+                <button id="blog-new-html-page2" class="btn  bg-lime-600 w-28 h-5">Home</button>
+            </div>
+            <div class="donation-title flex text-center ">
+                <img src="./assets/logo.png" alt="" class="size-11">
+                <p class="font-bold ml-3 mt-2">Donate Bangladesh</p>
+            </div>
+            <div class="div-total-donation flex">
+                <img src="./assets/coin.png" alt="" class="size-7">
+                <p id="main_balance" class="ml-3 font-medium ">5500 <span class="ml-1">BDT</span></p>
+            </div>
+
+
+
+        </nav>
+
+    </header>
+
+    <main class="bg-lime-100">
+        <h1 class="text-4xl font-extrabold ml-10 mt-10">Important FAQ <i class="fa-solid fa-question size-48"></i></h1>
+
+        <div class="all-FAQ flex flex-col ml-4 space-y-4 pb-8 ">
+            <div
+                class="flex justify-between div-1 border-2 border-gray-400 w-1/2 rounded-sm ml-4 bg-amber-50 shadow p-5 ">
+                <div>
+                    <p id="" class="font-semibold">What is the document object model(DOM)?</p>
+                    <p class="para">The dom is a programming interface for web document. It represents
+                        the structure of an html as a tree of object that can be accessed ,manipulated and
+
+                        modified using programming languages like javaScript.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-angle-down mt-4 iconic"></i>
+                </div>
+            </div>
+            <div
+                class="flex lg:justify-between div-2 border-2 border-gray-400 w-1/2 rounded-sm lg:ml-4 bg-amber-50 shadow p-5">
+                <div>
+                    <p class=" font-semibold">How do you select an element from dom?</p>
+                    <p class="para problem-text">To select an element in the dom we use various method and properties.by that method we select the id or class of the element an manipulate it as required.
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-angle-down mt-4 iconic"></i>
+                </div>
+
+            </div>
+            <div
+                class="flex justify-between div-3 border-2 border-gray-400 w-1/2 rounded-sm ml-4 bg-amber-50 shadow p-5">
+                <div>
+                    <p class=" font-semibold">What is event delegation in the context of Dom,and why is it useful?</p>
+                    <p class="para">Event delegation is a technic in dom where a single event listener is added
+                        to a parent element rather than attaching separate event listener to multiple child element.
+                        this works because events triggered by child elements bubble up through the dom to their
+                        parent element,allowing the parents to listen for those events on behalf of the children.
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-angle-down mt-4 iconic"></i>
+                </div>
+
+            </div>
+
+            <div
+                class="flex justify-between div-4 border-2 border-gray-400 w-1/2 rounded-sm ml-4 bg-amber-50 shadow p-5">
+                <div>
+                    <p class=" font-semibold">How do you manipulate an elements attributes and styles using Dom?</p>
+                    <p class="para">To manipulate an element first we can select an element by using Dom methods and inject 
+                        attributes with classlist and add different styles using css.
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-angle-down mt-4 iconic"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/challenge_j.js"></script>
+
+
+    </main>
+
+
+</body>
+
+</html>
